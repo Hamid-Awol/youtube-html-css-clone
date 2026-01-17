@@ -11,25 +11,96 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/general.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/video.css">
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/video.css" />
+    <link rel="stylesheet" href="./css/sidebar.css" />
     <title>YouTube.com clone</title>
-    
   </head>
   <body>
     <div class="header">
       <div class="left-section">
-left section
+        <img
+          class="humberger-menu"
+          src="../assets/icons/hamburger-menu.svg"
+          alt=""
+        />
+        <img
+          class="youtube-logo"
+          src="../assets/icons/youtube-logo.svg"
+          alt=""
+        />
       </div>
       <div class="middle-section">
         <input class="search-bar" type="text" placeholder="search" />
+        <button class="search-button">
+          <img class="search-icon" src="../assets/icons/search.svg" />
+          <div class="tool-tip">search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="../assets/icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tool-tip">Search with your voice</div>
+        </button>
       </div>
       <div class="right-section">
-right section
+        <img class="upload-icon" src="../assets/icons/upload.svg" alt="" />
+        <img
+          class="youtube-apps-icon"
+          src="../assets/icons/youtube-apps.svg"
+          alt=""
+        />
+        <div class="notification-icon-containner">
+          <img
+            class="notification-icon"
+            src="../assets/icons/notifications.svg"
+            alt=""
+          />
+          <div class="notifications-count">3</div>
+        </div>
+        <img
+          class="channel-icon"
+          src="../assets/icons/my-channel.jpeg"
+          alt=""
+        />
       </div>
     </div>
 
+    <!-- side bar  -->
+    <div class="side-bar">
+      <div class="sidebar-link">
+        <img src="../assets/icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="../assets/icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="../assets/icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="../assets/icons/originals.svg" alt="" />
+        <div>originals</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="../assets/icons/youtube-music.svg" alt="" />
+        <div>YouTube Music</div>
+      </div>
+
+      <div class="sidebar-link">
+        <img src="../assets/icons/library.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </div>
     <div class="video-grid">
       <div class="video-preview">
         <!-- first row -->
@@ -39,6 +110,7 @@ right section
             src="../assets/thumbnails/thumbnail-1.webp"
             alt=""
           />
+          <div class="video-time">14:20</div>
         </div>
         <!-- Second row -->
         <div class="video-info-grid">
@@ -70,6 +142,7 @@ right section
             src="../assets/thumbnails/thumbnail-2.webp"
             alt=""
           />
+          <div class="video-time">8:22</div>
         </div>
         <!-- Second row -->
         <div class="video-info-grid">
@@ -99,6 +172,7 @@ right section
             src="../assets/thumbnails/thumbnail-3.webp"
             alt=""
           />
+          <div class="video-time">9:13</div>
         </div>
         <!-- Second row -->
         <div class="video-info-grid">
@@ -130,6 +204,7 @@ right section
             src="../assets/thumbnails/thumbnail-4.webp"
             alt=""
           />
+          <div class="video-time">22:09</div>
         </div>
         <!-- Second row -->
         <div class="video-info-grid">
@@ -158,6 +233,7 @@ right section
             src="../assets/thumbnails/thumbnail-5.webp"
             alt=""
           />
+          <div class="video-time">11:17</div>
         </div>
         <!-- Second row -->
         <div class="video-info-grid">
@@ -189,6 +265,7 @@ right section
             src="../assets/thumbnails/thumbnail-6.webp"
             alt=""
           />
+          <div class="video-time">19:59</div>
         </div>
         <!-- Second row -->
         <div class="video-info-grid">
